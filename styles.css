@@ -41,7 +41,7 @@ footer.footer{
 }
 
 .footer{
-    opacity: 0.4;
+    /* opacity: 0.4; */
     width: 100%;
     position: sticky;
     bottom: 0px;
