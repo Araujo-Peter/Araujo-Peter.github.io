@@ -1,0 +1,114 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f3f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #b4b4b4;
+    overflow: hidden;
+}
+
+header h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    min-height: calc(100vh - 100px);
+}
+
+main div p{
+    padding: 0 10px;
+
+}
+
+footer.footer{
+    z-index: 2;
+}
+
+.footer{
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+    margin: 0;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+footer p{
+    background-color: #b4b4b4;
+    padding: 10px;
+    font-size: 0.9em;
+    display: inline;
+    border-radius: 0 20px 0 0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.content{
+    font-size: 1.3em;
+}
+
+.contact{
+    text-align: center;
+}
+
+div.contact{
+    position: relative;
+    bottom: -4em;
+    padding: 20px;
+    padding-bottom: 12px;
+    background-color: #b4b4b4;
+}
+
+.contact h3{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.fa{
+    padding: 30px;
+    /* font-size: 2em; */
+    margin: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+a.fa{
+    font-size: 2em;
+}
+
+.fa-envelope{
+    color: white;
+    background: rgb(132, 192, 132);
+}
+
+.fa-linkedin{
+    color: white;
+    background: #0e76a8;
+}
+
+div.contact p{
+    max-width: 100%;
+    margin: 0;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
