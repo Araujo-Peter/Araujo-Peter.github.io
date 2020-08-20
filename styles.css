@@ -12,14 +12,28 @@ body{
 header{
     box-sizing: border-box;
     padding: 10px 20px;
-    background-color: #b4b4b4;
+    background-color: #0B3954;
     overflow: hidden;
 }
 
 header h1{
+    color: white;
     font-size: 40px;
     text-align: center;
     margin: 30px;
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav a{
+    color: White;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #0c3046;
 }
 
 main{
@@ -27,8 +41,20 @@ main{
     width: 1200px;
     margin: 80px auto;
     padding: 0 40px;
+    /* padding-right: 30%; */
     box-sizing: border-box;
     min-height: calc(100vh - 100px);
+}
+
+.profile{
+    display: block;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: #0c3046 dashed 10px;
+    max-width: 50%;
+    width: 30%;
+    height: auto;
 }
 
 main div p{
@@ -41,29 +67,52 @@ footer.footer{
 }
 
 .footer{
-    opacity: 0.4;
     width: 100%;
     position: sticky;
     bottom: 0px;
     margin: 0;
     margin-bottom: 5px;
-    z-index: 1;
+}
+
+.scrollTop{
+    margin: 15px 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+}
+
+.scrollTop a{
+    text-align: right;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.7em;
+    background: #0c3046;
+    color: white;
 }
 
 footer p{
-    background-color: #b4b4b4;
+    margin: 0;
+    opacity: 0.6;
+    background-color: #0B3954;
     padding: 10px;
-    font-size: 0.9em;
-    display: inline;
-    border-radius: 0 20px 0 0;
+    font-size: 1em;
+    display: inline-block;
+    border-radius: 0 10px 0 0;
+    z-index: 100;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 2em;
+}
+
+.listing{
+    font-size: 1.5em;
+    line-height: 1.3em;
 }
 
 .content{
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .contact{
@@ -75,10 +124,11 @@ div.contact{
     bottom: -4em;
     padding: 20px;
     padding-bottom: 12px;
-    background-color: #b4b4b4;
+    background-color: #0B3954;
 }
 
 .contact h3{
+    color: white;
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 15px;
